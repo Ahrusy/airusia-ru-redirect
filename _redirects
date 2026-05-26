@@ -1,0 +1,5 @@
+# Мгновенный редирект на уровне CDN
+https://airusia.ru/* https://airusia.com/:splat 301!
+https://www.airusia.ru/* https://airusia.com/:splat 301!
+http://airusia.ru/* https://airusia.com/:splat 301!
+http://www.airusia.ru/* https://airusia.com/:splat 301!

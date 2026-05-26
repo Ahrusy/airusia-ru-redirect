@@ -1,0 +1,4 @@
+# Мгновенный редирект с airusia.ru на airusia.com
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?airusia\.ru$ [NC]
+RewriteRule ^(.*)$ https://airusia.com/$1 [R=301,L]
